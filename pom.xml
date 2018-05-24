@@ -7,16 +7,6 @@
   <version>1</version>
   <name>helloworldapplication</name>
   <url>http://maven.apache.org</url>
-<plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.1</version>
-        <configuration>
-          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
-        </configuration>
-      </plugin>
-    </plugins>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
